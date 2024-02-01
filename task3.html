@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div class="container">
+<form>
+<link rel="stylesheet" href="task3.css">
+<form action="/welcome_get.php" method="get">
+ <h1>Contact Us</h1>
+
+<label for="username">Your Name: </label></br>
+<input type="text" placeholder="Eishah Nadeem" id="username" name="username" required><br/>
+</br>
+<label for="email">Your Email:</label></br>
+<input type="email" placeholder="eishah@example.com" id="email" name="email" required><br/>
+</br>
+<label for="password">Your Phone Number: </label></br>
+<input type="Phone" placeholder="Format: 123-456-7890" id="password" name="password"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/>
+<br/>
+<label for="message">Your Message: </label></br>
+<textarea id="message" name="message" rows="4" cols="50"></textarea></br>
+<button type="submit">SUBMIT</button></br>
+<button type="reset" >RESET</button>
+</form>
+</div>
+</body>
+</html>

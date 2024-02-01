@@ -1,0 +1,12 @@
+/* External CSS for shadows */
+body {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Adding shadows to all elements */
+}
+h1{
+	
+	 box-shadow: 5px 5px 5px rgba(0.1, 0.2, 0.5, 0.3);
+}
+p{
+	
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
